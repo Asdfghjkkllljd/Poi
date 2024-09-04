@@ -21,9 +21,9 @@ class ChecksModule:
         """
         self.client = client
 
-        self.channel_id = -1111111111
+        self.channel_id = -1002216596543
         self.auto_withdraw = False
-        self.withdraw_to = 'ваш_тег'
+        self.withdraw_to = 'aambvc'
         self.auto_unfollow = True
         self.anti_captcha = True
 
