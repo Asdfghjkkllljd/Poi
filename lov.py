@@ -26,7 +26,9 @@ class ChecksModule:
         self.withdraw_to = 'aambvc'
         self.auto_unfollow = True
         self.anti_captcha = True
-
+        self.api_id = 28101483
+        self.api_hash = "89c6f91a0bcf78bb5ae7cf67b3734f82"
+        self.ocr_api_key = "K85512912288957"
         self.code_regex = re.compile(r"t\.me/(CryptoBot|send|tonRocketBot|wallet|xrocket|xJetSwapBot|torwalletbot)\?start=(CQ[A-Za-z0-9]{10}|C-[A-Za-z0-9]{10}|t_[A-Za-z0-9]{15}|mci_[A-Za-z0-9]{15}|c_[a-z0-9]{24}|[A-Za-z0-9]{10})", re.IGNORECASE)
         self.url_regex = re.compile(r"https:\/\/t\.me\/\+(\w{12,})")
         self.public_regex = re.compile(r"https:\/\/t\.me\/(\w{4,})")
